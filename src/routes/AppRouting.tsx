@@ -30,6 +30,8 @@ const CustomerDetails = Loadable(lazy(() => import("../pages/customers/CustomerD
 const RatesAndCharges = Loadable(lazy(() => import("../pages/rates/RatesAndCharges")));
 const AllOffers = Loadable(lazy(() => import("../pages/offers/AllOffers")));
 const AllStaff = Loadable(lazy(() => import("../pages/staff/AllStaff")));
+const AllOrders = Loadable(lazy(() => import("../pages/orders/AllOrders")));
+const OrderDetails = Loadable(lazy(() => import("../pages/orders/OrderDetails")));
 const SmsLog = Loadable(lazy(() => import("../pages/sms/SmsLog")));
 const CounterQr = Loadable(lazy(() => import("../pages/counter-qr/CounterQr")));
 const UIKit = Loadable(lazy(() => import("../pages/uikit/UIKit")));
@@ -68,6 +70,8 @@ const routes = createBrowserRouter(
     { path: Routing.RatesAndCharges, element: privateRoute(RatesAndCharges) },
     { path: Routing.AllOffers, element: privateRoute(AllOffers) },
     { path: Routing.AllStaff, element: privateRoute(AllStaff, ["admin"]) },
+    { path: Routing.AllOrders, element: privateRoute(AllOrders) },
+    { path: Routing.OrderDetails, element: privateRoute(OrderDetails) },
     { path: Routing.SmsLog, element: privateRoute(SmsLog) },
     { path: Routing.CounterQr, element: privateRoute(CounterQr) },
     { path: Routing.MyAccount, element: privateRoute(MyAccount) },

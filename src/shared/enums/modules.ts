@@ -6,6 +6,7 @@ export const Modules = {
   Rates: "Rates & charges",
   Offers: "Offers",
   Staff: "Staff accounts",
+  Orders: "Orders",
   Sms: "SMS log",
   CounterQr: "Counter QR",
   UIKit: "UI Kit",

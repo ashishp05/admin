@@ -1,5 +1,5 @@
 import type { IconType } from "react-icons";
-import { FiCalendar, FiGrid, FiMessageSquare, FiPercent, FiPlusCircle, FiShield, FiTag, FiUsers } from "react-icons/fi";
+import { FiCalendar, FiCreditCard, FiGrid, FiMessageSquare, FiPercent, FiPlusCircle, FiShield, FiTag, FiUsers } from "react-icons/fi";
 import { MdOutlineQrCode2, MdPalette } from "react-icons/md";
 
 export const sidebarIcons: Record<string, IconType> = {
@@ -7,6 +7,7 @@ export const sidebarIcons: Record<string, IconType> = {
   walkIn: FiPlusCircle,
   bookings: FiCalendar,
   customers: FiUsers,
+  orders: FiCreditCard,
   rates: FiTag,
   offers: FiPercent,
   staff: FiShield,

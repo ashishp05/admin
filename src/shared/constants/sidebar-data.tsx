@@ -18,6 +18,7 @@ export const sidebarRoutes: ISidebarData[] = [
   { module: Modules.WalkIn, route: Routing.WalkInBooking, name: "Book walk-in", icon: "walkIn" },
   { module: Modules.Bookings, route: Routing.AllBookings, name: "All bookings", icon: "bookings" },
   { module: Modules.Customers, route: Routing.AllCustomers, name: "Customers", icon: "customers" },
+  { module: Modules.Orders, route: Routing.AllOrders, name: "Orders", icon: "orders" },
   { module: Modules.Rates, route: Routing.RatesAndCharges, name: "Rates & charges", icon: "rates" },
   { module: Modules.Offers, route: Routing.AllOffers, name: "Offers", icon: "offers" },
   { module: Modules.Staff, route: Routing.AllStaff, name: "Staff accounts", icon: "staff", roles: ["admin"] },

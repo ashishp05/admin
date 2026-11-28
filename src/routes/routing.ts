@@ -15,6 +15,8 @@ export const Routing = {
   RatesAndCharges: `${PATH_PREFIX}/rates`,
   AllOffers: `${PATH_PREFIX}/offers`,
   AllStaff: `${PATH_PREFIX}/staff`,
+  AllOrders: `${PATH_PREFIX}/orders`,
+  OrderDetails: `${PATH_PREFIX}/orders/order-details`,
   SmsLog: `${PATH_PREFIX}/sms`,
   CounterQr: `${PATH_PREFIX}/counter-qr`,
   MyAccount: `${PATH_PREFIX}/account`,
